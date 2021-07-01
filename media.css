@@ -1,0 +1,113 @@
+@media only screen and (max-width:778px)
+{
+    .menubtn{
+        display: block;
+        position: absolute;
+        right:20px;
+    }
+    .navbar ul{
+        position: absolute;
+        top:100%;
+        width:100%;
+        height:auto;
+        left:-100%;
+        background-color: white;
+        color:var(--primary);
+        flex-direction: column;
+        transition: all 0.3s ease;
+        z-index: 100;
+        border-top:1px solid var(--primary);
+    }
+ 
+    .navbar ul li{
+        display: block;
+    }
+    .navbar ul li a{
+        color:var(--primary);
+    }
+  header{
+      justify-content: center;
+  }
+    .navbar ul{
+        display: none;
+    }
+    #toggle:checked ~ .navbar ul{
+        display: flex;
+        left:0;
+    }
+    #toggle:checked ~ .menubtn i:before{
+        content:"\f00d";
+        font-family: fontawesome;
+        transition: all 0.3s ease;
+    }
+    html{
+        font-size: 80%;
+    }
+    .prevent-row{
+        width:100%;
+        margin:0;
+        overflow-x: hidden;
+        margin-top: 3rem;
+        flex-direction: column;
+       flex-wrap: wrap;
+    }
+ 
+
+ 
+  .sym-col-1,
+  .sym-col-2{
+      width:100%;
+  }
+  .sym-row{
+      flex-direction: column;
+  }
+   .prec-row{
+       flex-direction: column;
+   }
+   .prec-col-1,
+   .prec-col-2{
+       width:80%;
+   }
+   .doctor-item img{
+       width:150px;
+       height:150px;
+   }
+    
+}
+@media only screen and (max-width:580px)
+{
+    .prevent-cont{
+        flex-direction: column;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        margin:2rem;
+    }
+    .prevent-item{
+        width:100%;
+       
+    }
+    .prec-col-1,
+    .prec-col-2{
+        width:100%;
+    }
+    .doctor-box{
+        justify-content: center;
+        flex-direction: column;
+        padding:1rem;
+    }
+    .doctor-item{
+        margin:1rem;
+        width:90%;
+    }
+    
+}
+@media only screen and (max-width:1000px)
+{
+    .prec-row{
+        width:100%;
+    }
+    .doctor-box{
+        width:100%;
+    }
+}
