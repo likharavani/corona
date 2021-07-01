@@ -401,6 +401,8 @@ margin:auto;
 }
 .aboutus p{
     margin:1rem;
+    font-size: 0.7rem;
+    line-height: 1.2rem;
     color:rgb(0, 32, 100);
 }
 .locations h2{
@@ -414,6 +416,7 @@ margin:auto;
 .locations ul li{
     list-style: none;
     color: rgb(0, 32, 100);
+    font-size: 0.7rem;
     text-transform: capitalize;
     margin:0.5rem;
 }
