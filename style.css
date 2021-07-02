@@ -35,6 +35,8 @@ display: none;
 
 .logo h2{
     font-weight: 100;
+    text-transform: uppercase;
+    font-size: 1.5rem;
     color:var(--secondary);
 }
 .navbar{
@@ -188,6 +190,7 @@ background-color: var(--primary);
 .symptoms{
     width:100%;
     text-align: center;
+    padding: 2rem;
     position: relative;
 }
 .symptoms::before{
@@ -239,6 +242,7 @@ width:250px;
 }
 .precautions{
     width:100%;
+    padding: 2rem;
     text-align: center;
 }
 .precautions h2{
@@ -300,6 +304,7 @@ margin:auto;
 }
 .doctor{
     width:100%;
+    padding: 2rem;
     height:auto;
   position: relative;
   text-align: center;
@@ -332,7 +337,7 @@ margin:auto;
    
 }
 .doctor-item{
-    width:30%;
+    width:25%;
 }
 .doctor-item 
 {

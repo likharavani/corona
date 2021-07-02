@@ -4,6 +4,8 @@
         display: block;
         position: absolute;
         right:20px;
+        color: var(--secondary);
+        font-size: 2rem;
     }
     .navbar ul{
         position: absolute;
@@ -16,14 +18,18 @@
         flex-direction: column;
         transition: all 0.3s ease;
         z-index: 100;
-        border-top:1px solid var(--primary);
+        border-top:1px solid var(--secondary);
     }
  
+    .navbar ul li a .active{
+        background-color: none;
+        color:var(--secondary)!important;
+    }
     .navbar ul li{
         display: block;
     }
     .navbar ul li a{
-        color:var(--primary);
+        color:var(--secondary);
     }
   header{
       justify-content: center;
@@ -74,6 +80,10 @@
    }
    .footer{
        flex-wrap: wrap;
+   }
+   .active{
+       background-color: none;
+       color:var(--secondary);
    }
     
 }
