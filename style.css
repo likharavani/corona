@@ -2,7 +2,6 @@
     margin:0;
     padding:0;
     box-sizing: border-box;
- 
     font-family: sans-serif;
 }
 
@@ -413,6 +412,7 @@ margin:auto;
 .locations h2{
     color:var(--secondary);
     margin:1rem;
+    font-size: 0.9rem;
     text-transform: capitalize;
 }
 .locations ul{
